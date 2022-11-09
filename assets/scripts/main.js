@@ -85,7 +85,6 @@ async function getRecipes() {
   //            If there are recipes, return them.
   
   if(localStorage.length>0){
-    //console.log(localStorage.getItem('recipes'));
     return JSON.parse(localStorage.getItem('recipes'));
   }
 
